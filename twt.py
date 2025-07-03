@@ -15,11 +15,11 @@ wait = WebDriverWait(driver, 15)
 
 #Login
 log_in_email = wait.until(EC.element_to_be_clickable((By.NAME, "text")))
-log_in_email.send_keys("prega907@gmail.com")
+log_in_email.send_keys("YOUR_MAIL_ID")
 log_in_email.send_keys(Keys.ENTER)
 
 log_in_password = wait.until(EC.element_to_be_clickable((By.NAME, "password")))
-log_in_password.send_keys("Pregxdesh#10")
+log_in_password.send_keys("YOUR_PASSWORD")
 log_in_password.send_keys(Keys.ENTER)
 time.sleep(5)
 
